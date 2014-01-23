@@ -16,7 +16,7 @@ even for thousands of files.
 ```javascript
 var esteWatch = require('este-watch');
 
-esteWatch(coffeeDirs, function(e) {
+esteWatch(['foo', 'bar'], function(e) {
   switch (e.extension) {
     case 'js':
       console.log(e.filepath);
