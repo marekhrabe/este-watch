@@ -1,0 +1,39 @@
+{
+  "name": "este-watch",
+  "version": "0.0.1",
+  "author": "Daniel Steigerwald",
+  "description": "Fast and reliable files watcher.",
+  "main": "./lib",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "semver": "~2.2.1",
+    "colors": "~0.6.2",
+    "glob": "~3.2.8"
+  },
+  "devDependencies": {
+    "gulp": "~3.4.0",
+    "gulp-jshint": "~1.3.4",
+    "chai": "~1.8.1",
+    "gulp-mocha": "~0.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steida/este-watch.git"
+  },
+  "keywords": [
+    "files",
+    "directories",
+    "watch",
+    "watcher"
+  ],
+  "bugs": {
+    "url": "https://github.com/steida/este-watch/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/steida/este-watch",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
